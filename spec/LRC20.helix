@@ -1,5 +1,5 @@
 // mock=true
-pragma tsubaki v0.1.0;
+pragma helix v0.1.0;
 
 async contract LRC20 is LRC20 {
   function name() public view returns (string)
