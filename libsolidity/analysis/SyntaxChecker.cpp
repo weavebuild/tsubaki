@@ -56,7 +56,7 @@ void SyntaxChecker::endVisit(SourceUnit const& _sourceUnit)
 				!recommendedLityVersion.isPrerelease()
 				|| !recommendedSolcVersion.isPrerelease())
 			errorString +=
-				" Consider adding \"pragma lity ^" +
+				" Consider adding \"pragma tsubaki ^" +
 				to_string(recommendedLityVersion.major()) +
 				string(".") +
 				to_string(recommendedLityVersion.minor()) +
