@@ -108,7 +108,7 @@ ASTPointer<PragmaDirective> Parser::parsePragmaDirective()
 	RecursionGuard recursionGuard(*this);
 	// pragma anything* ;
 	// Currently supported:
-	// pragma lity ^1.0.0 || ^1.1.0;
+	// pragma tsubaki ^1.0.0 || ^1.1.0;
 	// pragma solidity ^0.4.24 || ^0.4.24;
 	ASTNodeFactory nodeFactory(*this);
 	expectToken(Token::Pragma);
