@@ -249,7 +249,7 @@ private:
 };
 
 /**
- * Pragma directive, only version requirements in the form `pragma lity "^1.1.0";` or
+ * Pragma directive, only version requirements in the form `pragma tsubaki "^1.1.0";` or
  * `pragma solidity "^0.4.24";` are supported for now.
  */
 class PragmaDirective: public ASTNode
